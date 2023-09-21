@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="navtext">Mudit Jain</div>
+                <div class="navitems">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+            </div>
+            
+            <div class="hero-section">
+            <!-- <div class="faded-text">
+                Mudit Jain
+            </div> -->
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Mudit Jain</div>
+
+                <div class="hero-section-subheading">
+                    I am a <span class="role"></span>
+                </div>
+
+                <div class="hero-section-description">
+                    I'm a software developer and here is my portfolio website.
+                </div>
+
+                <div class="btn-pink" id="button">Hire me</div>
+            </div>
+
+            <div class="hero-section-right">
+                <div class="user-image">
+                    <img src="/image/User-Image.jpg">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="skills" class="container skills-container">
+            <div class="skill-faded-text">Skills</div>
+            <div class="skill-container-left">
+                <h2 class="skill-heading">Me and</h2>
+                <h2 class="skill-heading">My Tech Stack</h2>
+                <div class="skill-subheading">
+                    
+                    <p>Hello! My name is Mudit Jain. I am a Web Developer.
+                    I am pursuing B.Tech in Computer Science from Shri Shankaracharya 
+                    Institute of Professional Management and Technology.
+                    </p>
+                    
+                    <p>
+                    I have interest in web development and I like to learn and try 
+                    new things.I have earned a certificate in UI/UX design.
+                    While pursuing my degree I have learned various programming languages
+                    like C, Java and Python. 
+                    </p> 
+                </div>
+            </div>
+            <div class="skill-container-right">
+                <figure class="skills-logo">
+                    <img src="/image/stack/java-icon.svg">
+                    <figcaption class="caption">Java</figcaption>
+                </figure>
+                <figure class="skills-logo">
+                    <img src="/image/stack/HTML.png">
+                    <figcaption class="caption">HTML</figcaption>
+                </figure>
+                <figure class="skills-logo">
+                    <img src="/image/stack/CSS.png">
+                    <figcaption class="caption">CSS</figcaption>
+                </figure>
+                <figure class="skills-logo">
+                    <img src="/image/stack/Git.svg">
+                    <figcaption class="caption">Git</figcaption>
+                </figure>
+                <figure class="skills-logo">
+                    <img src="/image/stack/Github.svg">
+                    <figcaption class="caption">Github</figcaption>
+                </figure>
+                <figure class="skills-logo">
+                    <img src="/image/stack/Figma.png">
+                    <figcaption class="caption">Figma</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="contact-us" id="contactme">
+            <div class="container">
+
+                <h1 class="contact-us-heading">Conatct Me</h1>
+
+                <h3 class="contact-us-subheading">Questions, Thoughts, or Just Want To Say Hello</h3>
+
+                <div class="contact-us-form-container">
+                    <form action="mailto:muditjain2804@gmail.com" class="form">
+                        <div class="formfield-container">
+                            <input class="formfield"
+                            type="text"
+                            name="name"
+                            placeholder="Enter your name"/>
+
+                            <input class="formfield"
+                            type="email"
+                            name="email"
+                            placeholder="Enter your email address"/>
+
+                            <input class="formfield"
+                            type="text"
+                            name="subject"
+                            placeholder="Enter your subject"/>
+
+                            <textarea name="message"
+                            cols="30" rows="10"
+                            class="formfield formfield-textarea"
+                            placeholder="Enter your message" ></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-button">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">Mudit Jain</div>
+                    <div class="link-wrapper">
+                        <div><a href="#projects">Projects</a></div>
+                        <div><a href="#skills">Skills</a></div>
+                        <div><a href="#contactme">Contact Me</a></div>
+                    </div>
+                    <div class="icon-wrapper">
+                        <a class="fa-brands fa-linkedin icon" 
+                            href="https://www.linkedin.com/in/mudit-jain-508932202/" target="_blank" ></a>
+                        <a class="fa-brands fa-github icon" 
+                            href="https://github.com/MuditJain2804" target="_blank"></a>
+                        <a class="fa-brands fa-envelope icon" href="mailto:muditjain2804@gmail.com" ></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+          strings: [
+            "Full Stack Developer",
+            "UI-UX Designer",
+            "Coder",
+          ],
+          loop: true,
+          typeSpeed: 100,
+          backSpeed: 80,
+          backDelay: 1000,
+        });
+      </script>
+</body>
+</html>
